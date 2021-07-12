@@ -47,7 +47,10 @@ nav{
     padding-right: 25px;
     color: white;
 }
-
+.variante ul {
+    list-style: none;
+    padding: 0px;
+}
 .variantes{
     display: block;
     padding: 0px 0px 10px 10px;
@@ -65,10 +68,7 @@ main{
     width: 80%;
 }
 
-aside > ul {
-    list-style: none;
-    padding: 0px;
-}
+
 details > summary{
     list-style: none;
     color: white;
@@ -117,6 +117,9 @@ blockquote p{
 }
 .c3 li{
     list-style: none;
+}
+.c3 img{
+    width: 60%;
 }
 pre{
     color: white;
